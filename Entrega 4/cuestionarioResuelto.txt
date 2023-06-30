@@ -1,0 +1,13 @@
+- ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+
+Porque un lenguaje de programación en sí mismo no está limitado a un SO en particular. Sin embargo, la disponibilidad de un lenguaje de programación en un SO determinado depende de varios factores, como la compatibilidad del lenguaje con el SO y la disponibilidad de implementaciones y herramientas específicas de ese lenguaje para ese SO.
+Hay algunas razones por las que un lenguaje de programación puede estar disponible para algunos SO y otros no: Implementación y compiladores, bibliotecas y frameworks, características del SO y popularidad y demanda 
+
+- ¿Qué tipo de máquina virtual es virtualBox?
+
+Es una máquina virtual de tipo 2 que se instala y se ejecuta como una app en un SO host, permitiendo la creación y administración de múltiples máquinas virtuales dentro de ese entorno
+
+-Si tengo más de una máquina virtual instalada y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+Las máquinas virtuales se ejecutan de forma aislada, los problemas de una máquina virtual pueden tener impacto indirecto en otras máquinas virtuales o en el rendimiento general del sistema si hay dependencias de recursos compartidos, problemas de rendimiento o dependencias de configuración entre ellas. Sin embargo, en condiciones normales, una máquina virtual rota no debería afectar directamente a las demás máquinas virtuales que se estén ejecutando en el mismo hipervisor
+
